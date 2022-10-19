@@ -9,7 +9,7 @@ notes.get('/notes', (req, res) => {
 });
 
 notes.post('/notes', (req, res) => {
-    console.log(`${req.method} received for notes.`)
+    console.log(`${req.method} request received for notes.`)
     console.log(req.body);
     
     const { title, text } = req.body;
@@ -22,7 +22,9 @@ notes.post('/notes', (req, res) => {
             text,
             id: uuidv4(),
             }
+
         readAndAppend(newNote, './db/db.json');
+
         res.json('Note added succesfully!');
     } else {
         res.error('Cannot add note.')
