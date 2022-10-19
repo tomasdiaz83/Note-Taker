@@ -1,8 +1,5 @@
 //helpers, dependencies, etc
 const express = require('express');
-const { json } = require('express');
-const path = require('path');
-const { dirname } = require('path');
 
 //routes
 const htmlRoute = require('./routes/html-routes')

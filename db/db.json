@@ -1,32 +1,17 @@
 [
     {
-        "title": "Test Title",
-        "text": "Test text",
-        "id": 1
+        "title": "Save a note",
+        "text": "Once you have given a note a Title and some Text, click the save icon in the upper right hand corner.",
+        "id": "2fe6b73b-1c2b-4640-98b4-cd2cf62ef6d5"
     },
     {
-        "title": "Testing",
-        "text": "Does I work?",
-        "id": 2
+        "title": "Deleting a note",
+        "text": "If you want a note deleted, please click the trash icon on that note.",
+        "id": "431eb288-db32-46fe-b806-e157a09b4274"
     },
     {
-        "title": "Try for...",
-        "text": "an ID",
-        "id": 3
-    },
-    {
-        "title": "New ID?",
-        "text": "Yes?",
-        "id": "0577"
-    },
-    {
-        "title": "ID Testing",
-        "text": "Is it happening?",
-        "id": "342af1ab-e3b3-491f-a82b-af1513958112"
-    },
-    {
-        "title": "Still working?",
-        "text": "Test",
-        "id": "6d173af4-1b1b-49d9-8f1a-ded47f09a1a9"
+        "title": "Create a note",
+        "text": "If you wish to create a note, please click the '+' icon in the upper right hand corner.",
+        "id": "29829557-bb4f-4c1a-a550-6dcfec77887f"
     }
 ]
