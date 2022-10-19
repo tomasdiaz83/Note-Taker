@@ -7,7 +7,7 @@ The note-taker allows one to create and delete a list of notes that will persist
 
 ## Installation and Usage
 
-Web application, hosted at: 
+Web application, hosted at: https://young-garden-50608.herokuapp.com/
 
 ## Screenshots
 
