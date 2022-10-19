@@ -5,7 +5,7 @@ const { dirname } = require('path');
 
 //routes
 const htmlAPI = require('./routes/html-routes')
-const notesAPI = require('./routes/notes')
+const notesAPI = require('./routes/notesAPI')
 
 //Setting up express
 const app = express();

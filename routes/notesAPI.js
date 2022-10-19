@@ -14,13 +14,27 @@ notes.post('/notes', (req, res) => {
     const { title, text } = req.body;
 
     if (req.body) {
+        let id;
+
+        readFromFile('./db/db.json')
+        .then((data) => {
+            noteList = JSON.parse(data);
+            console.log(noteList);
+            id = noteList[noteList.length-1].id + 1;
+            console.log("working??")
+        })
+        .then(() => {
         const newNote = {
             title,
-            text
-        }
-
-        readAndAppend(newNote, './db/db.json')
-        res.json('Note added succesfully!')
+            text,
+            id
+            }
+        return newNote;
+        })
+        .then((newNote) => {
+            readAndAppend(newNote, './db/db.json');
+            res.json('Note added succesfully!');
+        })
     } else {
         res.error('Cannot add note.')
     }
